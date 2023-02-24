@@ -56,7 +56,8 @@ System.out.println(s1.isEmpty()); // false as s1 is hello
  System.out.println(s666.equalsIgnoreCase(s777)); //true   // removes case sensitivity
  
  // compare to   lexographical ???
-                                 //every character has unicode value 
+                                 //every character has unicode value so it giving difference of two unicode values 
+                                     // shows the differenc of two unicode value 
  String s8 ="maliha";
  String s9 ="Faruk";
  System.out.println(s8.compareTo(s9));
@@ -80,8 +81,9 @@ System.out.println(s1.isEmpty()); // false as s1 is hello
  String join = String.join(",", s12,s13);
  System.out.println( join);    //benz,Audi
  
- //substring ??
+ //substring 
   String s15 = "ToyotaHondaNissan";
+ System.out.println(s15.substring(6,11 ));  // Honda -- basically it returning from 0 index to the before end index
   
   // replace
    String s16 = " I am learning Java am";
